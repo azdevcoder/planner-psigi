@@ -182,13 +182,13 @@
             <input type="text" id="task-input" placeholder="O que precisa ser feito?" required>
             
             <select id="day-select">
+                <option value="domingo">Domingo</option>
                 <option value="segunda">Segunda</option>
                 <option value="terca">Terça</option>
                 <option value="quarta">Quarta</option>
                 <option value="quinta">Quinta</option>
                 <option value="sexta">Sexta</option>
                 <option value="sabado">Sábado</option>
-                <option value="domingo">Domingo</option>
             </select>
 
             <select id="category-select">
@@ -204,13 +204,13 @@
     </header>
 
     <main class="planner-grid">
+        <div class="day-column" data-day="domingo"><h3>Domingo</h3><div class="tasks-container"></div></div>
         <div class="day-column" data-day="segunda"><h3>Segunda-Feira</h3><div class="tasks-container"></div></div>
         <div class="day-column" data-day="terca"><h3>Terça-Feira</h3><div class="tasks-container"></div></div>
         <div class="day-column" data-day="quarta"><h3>Quarta-Feira</h3><div class="tasks-container"></div></div>
         <div class="day-column" data-day="quinta"><h3>Quinta-Feira</h3><div class="tasks-container"></div></div>
         <div class="day-column" data-day="sexta"><h3>Sexta-Feira</h3><div class="tasks-container"></div></div>
-        <div class="day-column" data-day="sabado"><h3>Sábado</h3><div class="tasks-container"></div></div>
-        <div class="day-column" data-day="domingo"><h3>Domingo</h3><div class="tasks-container"></div></div>
+        <div class="day-column" data-day="sabado"><h3>Sábado</h3><div class="tasks-container"></div></div>   
     </main>
 
     <script>
